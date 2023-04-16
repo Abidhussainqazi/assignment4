@@ -1,8 +1,8 @@
 //Write a function that takes an array of numbers as input and returns the product of all the numbers in the array.
-function getProduct(arr) {
+function getProduct(abc) {
   let product = 1;
-  for (let i = 0; i < arr.length; i++) {
-    product *= arr[i];
+  for (let i = 0; i < abc.length; i++) {
+    product *= abc[i];
   }
   return product;
 }
